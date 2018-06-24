@@ -1,0 +1,608 @@
+/*------------------------------------------------------------------- /
+
+Theme Name: Amino - Coming Soon Responsive Template
+Theme URI: http://exclusiveitech.com/comingsoon/amino/
+Author: Md. Aminur Rahman
+Author URI: www.exclusiveitech.com
+Description: Amino Coming Soon Responsive Template
+Version: 1.0
+
+--------------------------------------------------------------------- */
+/*  Table of contents
+==========================================================================
+*  1 - Logo styles
+*  2 - Text styles
+*  3 - Navigation styles
+*  4 - Countdown styles
+*  5 - Notify styles
+*  6 - Social Icon styles
+*  7 - MOdal styles
+*    7.1 - About Us
+*    7.2 - Service
+*    7.3 - Location
+*  8 - Responsive
+*  9 - Preloader
+   ========================================================================== */
+body {
+    font-family: "Roboto", sans-serif;
+    background: #181818;
+    color: #fff;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:contain;
+			background-color: #999;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300
+    }
+
+a {
+    color: #fff
+    }
+
+img {
+    max-width: 100%
+    }
+
+.wrapper {
+    background: url(../img/body-bg1.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 0;
+    left: 0;
+    min-height: 100%;
+    }
+
+/* 1- Logo styles
+-------------------------------------------------*/
+.logo {
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-top: 85px;
+    width: 160px
+    }
+
+/* 2- Text styles
+-------------------------------------------------*/
+.text_area {
+    margin-bottom: 55px
+    }
+
+.text_area .heading_title {
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    text-shadow: 3px 3px 1px #000;
+    font-weight: 300
+    }
+
+.text_area h4 {
+    font-family: "Muli", sans-serif;
+    font-size: 22px
+    }
+
+/* 3- Navigation styles
+-------------------------------------------------*/
+.navigation {
+    margin-bottom: 30px
+    }
+
+.info span {
+    color: #E35E5E;
+    font-size: 26px
+    }
+
+.info_bg {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px
+    }
+	
+.info span i:hover {
+	color:#ffffff;
+	}
+
+/* 4- Countdown styles
+-------------------------------------------------*/
+ul.countdown {
+    font-weight: 300;
+    list-style: none outside none;
+    margin-bottom: 35px;
+    padding: 1.5em 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6)
+    }
+
+ul.countdown li {
+    display: inline-block
+    }
+
+ul.countdown li span {
+    font-size: 87.666px
+    }
+
+ul.countdown li.seperator {
+    font-size: 75px;
+    line-height: 118.504px;
+    padding: 0 20.25px;
+    vertical-align: top
+    }
+
+ul.countdown li p {
+    color: #e35e5e;
+    font-size: 21.833px;
+    margin-top: -12px
+    }
+
+/* 5- Notify styles
+-------------------------------------------------*/
+.form_area {
+    margin-bottom: 50px;
+    overflow: hidden
+    }
+
+.notify {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 85%;
+    padding: 10px 20px 30px;
+    text-shadow: none
+    }
+
+.notify h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    text-transform: uppercase
+    }
+
+#no-spam {
+    text-shadow: none;
+    font-family: "Muli", sans-serif
+    }
+
+#newsletter-form input {
+    width: 50%;
+    margin-top: 0;
+    margin-right: 10px;
+    border: 1px solid #797373
+    }
+
+#newsletter-form input[type="submit"] {
+    width: 20%;
+    margin-top: 0;
+    background: #E35E5E;
+    border: medium none
+    }
+
+#newsletter-form input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #6E8697;
+    -moz-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+    -webkit-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in
+    }
+
+input, textarea {
+    background: transparent;
+    border: 1px solid #797373;
+    color: #fff;
+    height: 48px;
+    margin-top: 5px;
+    padding: 12px 12px;
+    width: 100%;
+    margin-bottom: 8px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-weight: normal
+    }
+	
+.success p {
+    padding-top: 32px
+    }
+
+/* 6- Social Icon styles
+-------------------------------------------------*/
+.social {
+    list-style: none outside none;
+    margin-bottom: 130px;
+    margin-top: 25px
+    }
+
+.social li {
+    display: inline-block;
+    padding-right: 0.5em
+    }
+
+.social li:last-child {
+    padding-right: 0
+    }
+
+.social a {
+    color: #E35E5E;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    vertical-align: middle;
+    display: block;
+    border: 1px solid #E35E5E;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in
+    }
+
+.social a:hover {
+    color: #006ba1;
+    background: #fff;
+    border-color: #fff;
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+    }
+
+/* 7- MOdal styles
+-------------------------------------------------*/
+.cross_button {
+    float: right
+    }
+
+.cross span {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 28px;
+    margin-top: 11px;
+    text-shadow: 0 1px 0 #fff
+    }
+
+.cross:hover, .cross:focus {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none
+    }
+
+button.cross {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    padding: 0
+    }
+
+*:before, *:after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+    }
+
+.sr-only {
+    border: 0 none;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+    }
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+    }
+
+
+.content-wrapper {
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 50px
+    }
+
+.content-wrapper p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    padding: 0 12px
+    }
+
+.modal-content .title {
+    font-family: "Roboto", sans-serif;
+    border-bottom: 2px solid #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-bottom: 8px
+    }
+
+/* 7.1- About Us
+-------------------------------------------------*/
+#modal-1 {
+    display: none;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 997
+    } 
+	
+.entry {
+    margin-bottom: 65px;
+    margin-top: 35px
+    }
+
+.modal-main p {
+    font-family: "Muli", sans-serif;
+    font-size: 15px
+    }
+
+.entry h2 {
+    font-weight: bold;
+    margin-bottom: 35px;
+    position: relative
+    }
+
+.entry h2:after {
+    background: none repeat scroll 0 0 #f55;
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    left: 44%;
+    margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    width: 100px
+    }
+
+/* 7.2 - Service
+-------------------------------------------------*/
+#modal-2 {
+    display: none;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 997
+    }
+	
+.services {
+    margin-top: 85px
+    }
+
+.services h3 {
+    font-weight: bold
+    }
+
+/* 7.3- Contact
+-------------------------------------------------*/
+#modal-3 {
+    display: none;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 997
+    }
+	
+#contactForm textarea {
+    height: 200px
+    }
+
+input[type="submit"] {
+    color: #fff;
+    background: #E35E5E;
+    border: medium none
+    }
+
+#contactForm input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #6E8697;
+    color: #fff;
+    -moz-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+    -webkit-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in
+    }
+	
+.alert-success {
+    background-color: #e35e5e;
+    border: medium none;
+    color: #fff
+    }
+	
+
+/* ==========================================================================
+   Small devices (tablets, 768px and up)
+   ========================================================================== */
+
+@media (min-width: 768px){
+ul.countdown li span {
+	  font-size:70.666px;
+	  
+}
+}
+/* ==========================================================================
+   Medium devices (desktops, 992px and up)
+   ========================================================================== */
+
+@media (min-width: 992px){
+ul.countdown li span {
+	font-family: "Roboto",sans-serif;
+	font-size: 80px;
+	font-weight: 300;
+	text-shadow: 1px 2px 1px #000000;
+}
+ul.countdown li.seperator{
+	line-height:115.504px;
+	padding:0 23.25px;
+}
+}
+
+/* ==========================================================================
+   Mobile small Layoutup (max-width: 767px)
+   ========================================================================== */
+@media only screen and (max-width: 767px){
+
+.text_area .heading_title{
+	font-size: 60px;
+}
+
+.text_area h4{
+    font-size:20px;
+}
+ul.countdown li span{
+    font-size:53.666px;
+}
+ul.countdown li.seperator{
+    font-size:67px;
+    line-height:80.504px;
+    padding:0 2.25px;
+}
+
+}
+/* ==========================================================================
+   Mobile small Layoutup (min-width: 480px)
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+ul.countdown li span{
+    font-size:51.666px;
+}
+ul.countdown li.seperator{
+    font-size:36px;
+    line-height:69.504px;
+    padding:0 5.25px;
+}
+}
+/* ==========================================================================
+   small devices (max-width: 360px)
+   ========================================================================== */
+@media (max-width: 360px){
+
+.text_area h4 {
+    font-size:19px;
+}
+ul.countdown li span{
+    font-size:37.492px;
+}
+
+ul.countdown li.seperator{
+    font-size:30.372px;
+    line-height:51.959px;
+    padding:0 6px;
+}
+ul.countdown li p{
+    font-size:16px;
+    margin-top:0;
+}
+.notify{
+    max-width:100%;
+}
+.notify h2{
+    font-size:23px;
+}
+#signup input{
+    width:63%;
+}
+}
+
+@media (max-width: 320px){
+.text_area .heading_title{
+	font-size: 55px;
+}
+
+.text_area h4{
+    font-size:17px;
+}
+ul.countdown{
+    padding-bottom:0;
+}
+ul.countdown li span{
+    font-size:35.833px;
+}
+ul.countdown li.seperator{
+    font-size:25.629px;
+    line-height:38.439px;
+    vertical-align:top;
+    padding:0 2px;
+}
+ul.countdown li p{
+    font-size:15.642px;
+}
+.notify h2{
+    font-size:22px;
+}
+}
+/*  Preloader 
+=====================*/
+body.preloader_active {
+    overflow: hidden
+    }
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 99;
+    }
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../img/1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    }
+
+#preloader p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 60px;
+    margin-left: -40px
+    }
+
+/*   video 
+=========================*/
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+
+
+
+
