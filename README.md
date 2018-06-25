@@ -33,6 +33,17 @@ DB_PASSWORD=yourdbpassword
 - run command : php artisan config:clear
 - run command : php artisan config:cache
 
+## User Login
+- username : user-1 
+- password : 12345
+
+## Driver Login
+- username : driver-1
+- password : 12345
+
+- username : driver-2
+-password : 12345
+
 
 ## License
 
